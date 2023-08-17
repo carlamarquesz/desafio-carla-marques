@@ -1,4 +1,4 @@
-import { CaixaDaLanchonete } from "./caixa-da-lanchonete.js";
+const { CaixaDaLanchonete } = require('./caixa-da-lanchonete');
 
 describe('CaixaDaLanchonete', () => {
 
@@ -49,3 +49,5 @@ describe('CaixaDaLanchonete', () => {
     ])('compra %p em %p deve resultar em %p', (_, formaDePagamento, resultadoEsperado, itens) =>
         validaTeste(formaDePagamento, resultadoEsperado, itens));
 });
+
+
